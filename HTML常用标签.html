@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML常用标签</title>
+</head>
+
+<body>
+	<!--这是一个注释，不会在网页中显示-->
+	<h1 style="font-size:200%">HTML常用标签</h1>
+	<hr/>
+	<ol>
+	<li>文档结构标签</li>
+	<li>文本格式标签</li>
+	<li>字符格式标签</li>
+		<p>例如，针对下面一个一元二次方程：</p>
+		<p><i>x</i><sup>2</sup>-<b>5</b><i>x</i>+<b>4</b>=0</p>
+		<p>我们使用<big><b>分解因式法</b></big>来演示解题思路如下</p>
+		<p><small>由：</small>(<i>x</i>-1)(<i>x</i>-4)=0</p>
+		<p><small>由：</small><br/><i>x</i><sub>1</sub>=<b>1</b><br/><i>x</i><sub>2</sub>=<b>4</b></p>
+	<li>列表标签</li>
+		<h2>成语词条列表</h2>
+		<dl>
+			<dt>知无不言，言无不尽</dt>
+			<dd>知道的就说，要说就毫无保留</dd>
+			<dt>智者千虑，必有一失</dt>
+			<dd>不管多聪明的人，在很多次的考虑中，也一定会出现个别错误</dd>
+		</dl>
+	<li>链接标签</li>
+		<a href="http://www.baidu.com/">去百度搜索</a><br/>
+		<a href="#btm">跳转到底部</a><br/>
+		<dev id="box"style="height:2000px;border:solid 1px red;">撑开浏览器滚动条</dev>
+		<span id="btm">底部锚点位置</span><br/>
+	<li>多媒体标签</li>
+		<img src="1001285.jpg" alt="a beautuful girl" width="192" height="108"/>
+		<img src="3973632c2ca7ae26e346413d62c64970.jpg" width="960" height="540"/>
+	<li>表格标签</li>
+		<table summary="ASCII是英文American Standard Code for Information Interchange的缩写。">
+		<caption>ASCII字符集（节选)</caption>
+			<tr>
+				<th>十进制</th>
+				<th>十六进制</th>
+				<th>字符</th>
+			</tr>
+			<tr>
+				<td>9</td>
+				<td>9</td>
+				<td>TAB(制表符)</td>
+			</tr>
+			<tr>
+				<td>10</td>
+				<td>A</td>
+				<td>换行</td>
+			</tr>
+			<tr>
+				<td>13</td>
+				<td>D</td>
+				<td>回车</td>
+			</tr>
+			<tr>
+				<td>32</td>
+				<td>20</td>
+				<td>空格</td>
+			</tr>
+		</table>
+	<li>表单标签</li>
+		<form id="form1" name="form1" method="post" action="textfield"/>
+			<p>单行文本域：<input type="text" name="textfield" id="textfield"/></p>
+			<p>密码域<input type="password" name="passwordfield" id="passwordfield"/></p>
+			<p>多行文本框：<textarea name="textareafield" id="textareafield"></textarea></p>
+			<p>复选框 1<input name="checkbox1" type="checkbox" value=""/></p>
+			<p>复选框 2<input name="checkbox2" type="checkbox" value=""/></p>
+			<p>单选按钮：<input name="radio" value=""/>按钮1<input name="radio2" type="radio" value=""/>按钮2</p>
+		<p>下拉菜单：
+		<select name="selectlist">
+				<option value="1">选项一</option>
+				<option value="2">选项二</option>
+				<option value="3">选项三</option>
+			</select></p>
+		<p><input type="submit" name="button" id="button" value="提交"/></p>
+		</form>
+	</ol>
+</body>
+</html>
